@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards';
 import ElevatedCard from './components/ElevatedCard';
 import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
+import ContactUs from './components/ContactUs';
 
 export class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export class App extends Component {
             <FlatCards/>
             <ElevatedCard />
             <FancyCard />
+            <ContactUs />
             <ActionCard />
           </View>
         </ScrollView>
